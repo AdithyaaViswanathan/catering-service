@@ -1,0 +1,179 @@
+.worker-dashboard {
+  min-height: calc(100vh - 200px);
+  padding: 40px 20px;
+}
+
+.availability-toggle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-section {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+.jobs-preview {
+  display: grid;
+  gap: 15px;
+}
+
+.job-card {
+  padding: 15px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.job-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.job-card p {
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.available-jobs-page,
+.my-jobs-page {
+  min-height: calc(100vh - 200px);
+  padding: 40px 20px;
+}
+
+.jobs-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border: 2px solid #4a90e2;
+  background: white;
+  color: #4a90e2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+.filter-btn.active {
+  background: #4a90e2;
+  color: white;
+}
+
+.jobs-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.job-detail-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.job-detail-info p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.job-menu-items {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.job-menu-items h4 {
+  margin-bottom: 10px;
+}
+
+.job-menu-items ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job-menu-items li {
+  padding: 5px 0;
+  color: #666;
+}
+
+.job-actions {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.job-actions button {
+  margin-right: 10px;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-assigned {
+  background: #cfe2ff;
+  color: #084298;
+}
+
+.status-in-progress {
+  background: #d1ecf1;
+  color: #055160;
+}
+
+.status-completed {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.status-cancelled {
+  background: #f8d7da;
+  color: #842029;
+}
+
